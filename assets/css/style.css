@@ -1,0 +1,47 @@
+header {
+    text-align:center;
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color:green;
+    height: 50px;
+    width: 150px;
+    font-size:large;
+}
+
+.hi-scores {
+    display:flex;
+    justify-content:flex-start;
+    font-size:large;
+    text-decoration:none;
+}
+
+.timer-count {
+    display:inline-flex;
+    justify-content:flex-end;
+    font-size: 50px;
+}
+
+h3 {
+    display:inline-flex;
+    justify-content:flex-end;
+}
+
+.options {
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.score {
+    font-size: 30px;
+}
+
+.form {
+    display: none;
+}

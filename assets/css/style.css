@@ -12,6 +12,11 @@ header {
     height: 50px;
     width: 150px;
     font-size:large;
+    cursor:pointer;
+}
+
+.btn:hover {
+    box-shadow:0 5px 15px black;
 }
 
 .hi-scores {
@@ -19,6 +24,11 @@ header {
     justify-content:flex-start;
     font-size:large;
     text-decoration:none;
+    cursor:pointer;
+}
+
+.hi-scores:hover {
+    box-shadow:0 5px 15px black;
 }
 
 .timer-count {
@@ -33,9 +43,22 @@ h3 {
 }
 
 .options {
-    margin-bottom: 10px;
-    font-weight: bold;
-    cursor: pointer;
+    margin:10px;
+    padding:10px;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:20px;
+    color:darkblue;
+    background-color:lightgray;
+}
+
+.options:hover {
+    box-shadow:0 5px 15px black;
+}
+
+.questions {
+    margin:5px;
+    font-size:25px;
 }
 
 .score {
@@ -45,3 +68,4 @@ h3 {
 .form {
     display: none;
 }
+

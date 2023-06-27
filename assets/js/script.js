@@ -36,6 +36,7 @@ function renderQuestion() {
     questionEl.innerHTML = "";
     optionsEl.innerHTML = "";
     questionEl.innerHTML = questions[currentQuestion].question;
+    questionEl.classList.add("questions");
     questions[currentQuestion].options.forEach((option, index) => {
         var optionEl = document.createElement("div");
         optionEl.innerHTML = option;
@@ -92,9 +93,11 @@ function endQuiz(event) {
 
 function highScores() {
     var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+    highScores.sort((a, b) => b.score - a.score);
     var scoresList = document.querySelector("#scoresList");
     scoresList.innerHTML = "";
-    highScores.forEach(function (scoreObj) {
+    var topScores = highScores.slice(0, 10);
+    topScores.forEach(function (scoreObj) {
         var scoreItem = document.createElement("li");
         scoreItem.textContent = scoreObj.name + " - " + scoreObj.score;
         scoresList.appendChild(scoreItem);

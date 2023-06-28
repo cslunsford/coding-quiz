@@ -108,5 +108,5 @@ function displayHighScores() {
 
 startBtn.addEventListener("click", startQuiz);
 scoreboard.addEventListener("submit", endQuiz);
-highScoreBtn.addEventListener("click", highScores)
+highScoreBtn.addEventListener("click", displayHighScores)
 scoreboard.classList.add("form");

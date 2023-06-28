@@ -82,11 +82,6 @@ function endQuiz(event) {
     scoreEl.style.display = "block";
     timerEl.style.display = "none";
     quizEl.style.display = "none";
-    var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-    var playerName = document.querySelector("#playerName").value;
-    var playerScore = { name: playerName, score: score };
-    highScores.push(playerScore);
-    localStorage.setItem("highScores", JSON.stringify(highScores));
     var scoreboard = document.querySelector("#scoreboard");
     scoreboard.classList.remove("form");
 }

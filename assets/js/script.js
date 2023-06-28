@@ -91,7 +91,7 @@ function endQuiz(event) {
     scoreboard.classList.remove("form");
 }
 
-function highScores() {
+function displayHighScores() {
     var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
     highScores.sort((a, b) => b.score - a.score);
     var scoresList = document.querySelector("#scoresList");

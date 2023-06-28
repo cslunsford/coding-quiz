@@ -10,7 +10,7 @@ This project was created using HTML, CSS, and JavaScript for a coding student to
 
 ## Screenshots of Webpage
 
-[Screenshot 1]()
-[Screenshot 2]()
-[Screenshot 3]()
-[Screenshot 4]()
+[Screenshot 1](https://github.com/cslunsford/coding-quiz/blob/main/assets/images/Screenshot%202023-06-27%20at%209.26.57%20PM.png)
+[Screenshot 2](https://github.com/cslunsford/coding-quiz/blob/main/assets/images/Screenshot%202023-06-27%20at%209.27.34%20PM.png)
+[Screenshot 3](https://github.com/cslunsford/coding-quiz/blob/main/assets/images/Screenshot%202023-06-27%20at%209.27.52%20PM.png)
+[Screenshot 4](https://github.com/cslunsford/coding-quiz/blob/main/assets/images/Screenshot%202023-06-27%20at%209.28.09%20PM.png)
